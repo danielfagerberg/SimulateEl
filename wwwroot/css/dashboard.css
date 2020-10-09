@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #243441;
+    color: white;
+    font-size: 10px;
+}
+
+.boxar {
+    border-radius: 10px;
+    background-color: #243441;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.actionbox {
+    border-radius: 10px;
+    background-color: #243441;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    width:80%;
+    align-content:center;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxtext{
+    margin-left:5px;
+}
+
+.actions{
+    justify-content:center;
+}
+
+.vertical-menu {
+    width: 100%; /* Set a width if you like */
+}
+
+    .vertical-menu a {
+        background-color: #243441; /* Grey background color */
+        color: white; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+        font-size:10px;
+    }
+
+        .vertical-menu a:hover {
+            background-color: #1e2b35; /* Dark grey background on mouse-over */
+        }
+
